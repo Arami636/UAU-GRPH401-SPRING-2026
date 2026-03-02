@@ -7,13 +7,15 @@ section {
   margin: 50px 50px;
   background-color: #f4e3c1;
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 10px;
   width: 300px;
+  height:fit-content
 }
 
 #hero {
   background-color: #2c1b18;
   padding: 80px 0;
+  text-align: center;
   color: #f4e3c1;
 }
 
