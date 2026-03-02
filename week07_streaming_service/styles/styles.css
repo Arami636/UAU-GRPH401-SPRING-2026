@@ -1,0 +1,56 @@
+section {
+  text-align: center;
+}
+.card{
+  display: inline-block;
+  vertical-align: top;
+  margin: 50px 50px;
+  
+}
+
+#hero {
+  background-color: #2c1b18;
+  padding: 80px 0;
+  color: #f4e3c1;
+}
+
+#hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+
+.section-title {
+  font-size: 32px;
+  color: #3a5a40;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+
+.card {
+  background-color: #f4e3c1;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+}
+
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.button {
+  background-color: #3a5a40;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #588157;
+}
