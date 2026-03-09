@@ -1,0 +1,99 @@
+:root {
+  --primary: #b2cb95;
+  --secondary: #4d8d55;
+  --alternate: #275631;
+
+  --padding-small: 10;
+  --padding-medium: 15;
+  --padding-large: 20;
+
+  --font-small: 12;
+  --font-medium: 24;
+  --font-large: 36;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background: var(--primary);
+  padding: var(--padding-small);
+}
+
+header h1 {
+  font-size: var(--font-medium);
+  text-align: left;
+  margin: 0;
+}
+
+.card {
+  margin: var(--padding-small);
+  padding: var(--padding-small);
+  text-align: left;
+  margin: 0;
+  background: white;
+}
+
+.card img {
+  width: 250px;
+  padding:var(--padding-large);
+}
+
+.card-content h2 {
+  font-size: var(--font-small);
+}
+
+.card-content p {
+  font-size: var(--font-small);
+}
+
+.card-content button {
+  background: var(--primary);
+  color: black;
+  padding: var(--padding-medium);
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card-content button:hover {
+  color: var(--secondary);
+}
+
+@media (min-width: 768px) {
+  header {
+    background-color: var(--secondary);
+    padding: var(--padding-medium);
+  }
+  header h1 {
+    text-align: center;
+    font-size: var(--font-large);
+  }
+  .card {
+    text-align: center;
+    padding: var(--padding-medium);
+    margin: var(--padding-medium);
+  }
+  .card-content h2{
+    font-size: var(--font-medium);
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    background: var(--alternate);
+    padding: var(--padding-large);
+
+  }
+  header h1 {
+font-size: var(--font-large);
+text-align: center;
+}
+
+.card {
+  text-align: center;
+  padding: var(--padding-large);
+  margin: var(--padding-large);
+}
