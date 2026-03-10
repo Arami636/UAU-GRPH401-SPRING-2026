@@ -3,13 +3,13 @@
   --secondary: #4d8d55;
   --alternate: #275631;
 
-  --padding-small: 10;
-  --padding-medium: 15;
-  --padding-large: 20;
+  --padding-small: 10px;
+  --padding-medium: 15px;
+  --padding-large: 20px;
 
-  --font-small: 12;
-  --font-medium: 24;
-  --font-large: 36;
+  --font-small: 12pt;
+  --font-medium: 24pt;
+  --font-large: 36pt;
 }
 body {
   margin: 0;
@@ -37,7 +37,7 @@ header h1 {
 
 .card img {
   width: 250px;
-  padding:var(--padding-large);
+  padding: var(--padding-large);
 }
 
 .card-content h2 {
@@ -76,7 +76,7 @@ header h1 {
     padding: var(--padding-medium);
     margin: var(--padding-medium);
   }
-  .card-content h2{
+  .card-content h2 {
     font-size: var(--font-medium);
   }
 }
@@ -85,15 +85,15 @@ header h1 {
   header {
     background: var(--alternate);
     padding: var(--padding-large);
-
   }
   header h1 {
-font-size: var(--font-large);
-text-align: center;
-}
+    font-size: var(--font-large);
+    text-align: center;
+  }
 
-.card {
-  text-align: center;
-  padding: var(--padding-large);
-  margin: var(--padding-large);
+  .card {
+    text-align: center;
+    padding: var(--padding-large);
+    margin: var(--padding-large);
+  }
 }
