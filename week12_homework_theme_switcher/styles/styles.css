@@ -9,27 +9,27 @@
 
 .theme-two {
   --bg-color: rgb(32, 30, 30);
-  --text-color: #f5f4f0;
+  --text-color: #626262;
   --accent-color: #e2ab74;
-  --card-bg: #d9d9d9;
-  --header-bg: #db8924;
-  --header-text: rgb(105, 81, 75);
+  --card-bg: #bdbdbd;
+  --header-bg: #ad742e;
+  --header-text: rgb(56, 44, 41);
 }
 
 .theme-three {
-  --bg-color: rgb(26, 46, 124);
-  --text-color: #39333e;
-  --accent-color: #413bae;
-  --card-bg: #61a4b3;
-  --header-bg: #738c8d;
-  --header-text: #777770;
+  --bg-color: rgb(43, 52, 65);
+  --text-color: #ececec;
+  --accent-color: rgb(172, 201, 224);
+  --card-bg: rgb(125, 153, 172);
+  --header-bg: rgb(125, 153, 172);
+  --header-text: rgb(172, 201, 224);
 }
 
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-/* Smooth theme switching — makes color change animate instead of snap*/
+  /* Smooth theme switching — makes color change animate instead of snap*/
   transition: all 0.3s ease;
 }
 
